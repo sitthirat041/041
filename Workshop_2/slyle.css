@@ -1,0 +1,86 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#home{
+    background-color: #FF8787;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 200px;
+}.poflile_name{
+    background-color: #F8C4B4;
+    width: 300px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding-left: 22px;
+    color: rgb(0, 0, 0);
+}.contact_info{
+    font-size: 17px;
+    font-style: italic;
+    align-items: center;
+    flex-direction: row;
+
+}.contact_info img{
+    width: 35px;
+    margin-right: 12px;
+}.topdiv {
+    float: left;
+    padding-right: 20px;
+}.topmenu{
+    color: #BCE29E;
+    font-size: 20px;
+    margin-left: 10px;
+}.poflile_images{
+    width: 250px;
+}#about_me{
+    display: flex;
+}#about_me h1{
+    font-size: 65px;
+    color: #FF8787;
+}#about_me p{
+    color: #f7a58b;
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}h2{
+    font-size: 40px;
+    color: #FF8787;
+    margin-left: 20px;
+}.all_skills{
+    display: flex;
+}.skills{
+    border: 1px solid #E5EBB2;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #BCE29E;
+}
+.skills img{
+    height: 200px;
+}#Projects-container{
+    margin-left: 50px;
+}#Projects-container hr{
+    width: 75%;
+    border: 1px solid #E5EBB2;
+}.Projects-class li{
+    color: #FF8787;
+}#all_recommendations{
+    display: flex;
+}.rec{
+    margin: 30px;
+    border: 1px solid #E5EBB2;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    flex: 1;
+    box-shadow: 0 2px 5px #BCE29E;
+    color: #f7a58b;
+}.rec samp{
+    color: #f7a58b;
+    font-size: 30px;
+}
